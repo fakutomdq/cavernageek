@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lacavernageek</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="../estilos/styles.css">
+</head>
+
+<body>
+    <header class="  fondo  py-3">
+        <div class="container">
+            <div class="d-flex flex-wrap justify-content-between align-items-center">
+                <!-- Logo y formulario de búsqueda -->
+                <div class="d-flex align-items-center">
+                    <img class="logo img-fluid" src="../img/cavernageenk.jpeg" alt="logo">
+
+                </div>
+
+                <!-- Navegación -->
+                <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                    <div class="container-fluid">
+
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarText">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <ul class="navbar-nav">
+
+                                    <li class="nav-item"><a class="nav-link" href="./pages/contactos.html">Contactos</a>
+                                    </li>
+                                    <li class="nav-item"><a class="nav-link" href="./pages/criticas.html">Críticas</a>
+                                    </li>
+                                    <li class="nav-item"><a class="nav-link" href="./pages/noticias.html">Noticias</a>
+                                    </li>
+                                    <li class="nav-item"><a class="nav-link" href="./pages/trailers.html">Trailers</a>
+                                    </li>
+                                </ul>
+                        </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div id="carouselExampleCaptions" class="carousel slide ">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./img/dark-souls-4jpg.webp" class="d-block w-100img-fluid " alt="dark-soul">
+                    <div class="carousel-caption d-none d-md-block">
+
+                        <a href="#" class="font-noti">ver noticia</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/pcfutbol.webp" class="d-block w-100 img-fluid" alt="pc-futbol">
+                    <div class="carousel-caption d-none d-md-block">
+
+                        <a href="#" class="font-noti">ver noticia</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/starcraft-3.webp" class="d-block w-100 img-fluid" alt="starcraft-3">
+                    <div class="carousel-caption d-none d-md-block">
+                        <a href="#" class="font-noti">ver noticia</a>
+
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <span>
+            <h1 class="main-header title">Cavernageek</h1>
+        </span>
+
+        <div class="row">
+            <!-- Sidebar -->
+            <aside class="col-lg-3 col-md-4 mb-4">
+                <h2 class="subtitle-2">Últimas críticas</h2>
+                <div>
+                    <article class="review-item mb-4 card col " style="width: 13rem;">
+                        <img class="imagecritica card img-fluid" src="./img/crisis en tierra infinita.jpg"
+                            alt="Crisis en Tierras Infinitas">
+                        <p class="font-critica">Crisis en Tierras Infinitas Parte 2: Un Espectáculo Visual que Redefine
+                            el Multiverso
+                            pero No Sin Sus Desafíos</p>
+                        <div class="valoracion">
+                            <input id="critica-radio-5" type="radio" name="estrellas" value="5"><label
+                                for="critica-radio-5">★</label>
+                            <input id="critica-radio-4" type="radio" name="estrellas" value="4"><label
+                                for="critica-radio-4">★</label>
+                            <input id="critica-radio-3" type="radio" name="estrellas" value="3"><label
+                                for="critica-radio-3">★</label>
+                        </div>
+                        <a href="#">Ver más</a>
+                    </article>
+
+                    <article class="review-item mb-4 card col  " style="width: 13rem;">
+                        <img class="imagecritica card img-fluid" src="./img/blue betle.jpg" alt="Blue Beetle">
+                        <p class="font-critica">“Blue Beetle: Un Héroe Fresco en el Cine, Pero ¿Puede Su Luz Brillar en
+                            el Universo DC?”
+                        </p>
+                        <div class="valoracion">
+                            <input id="critica-radio-5-2" type="radio" name="estrellas" value="5"><label
+                                for="critica-radio-5-2">★</label>
+                            <input id="critica-radio-4-2" type="radio" name="estrellas" value="4"><label
+                                for="critica-radio-4-2">★</label>
+                            <input id="critica-radio-3-2" type="radio" name="estrellas" value="3"><label
+                                for="critica-radio-3-2">★</label>
+                        </div>
+                        <a href="#">Ver más</a>
+                    </article>
+
+                    <article class="review-item mb-4 card col " style="width: 13rem;">
+                        <img class="imagecritica card-img-top" src="./img/madame web.webp" alt="Madame Web">
+                        <p class="font-critica">Madame Web: Una Red de Promesas Rotas y Tramas Enredadas</p>
+                        <div class="valoracion">
+                            <input id="critica-radio-5-3" type="radio" name="estrellas" value="5"><label
+                                for="critica-radio-5-3">★</label>
+                        </div>
+                        <a href="#">Ver más</a>
+                    </article>
+
+                    <a href="./pages/criticas.html">Ver más críticas</a>
+            </aside>
+
+            <!-- Main Content -->
+            <section class="  container noti  col-lg-9 col-md-8 mb-4">
+
+                <h2 class=" main-header subtitle">Últimas noticias de cine y videojuegos</h2>
+
+                <article class=" mb-4">
+                    <img class="image img-fluid" src="./img/hulk.webp" alt="World War Hulk">
+                    <h3>¡Revelado! World War Hulk Introducirá a un Villano Secreto y una Alianza Inesperada: ¡El
+                        Regreso de los X-Men!</h3>
+                    <p>¡La guerra se intensifica en World War Hulk! Marvel Studios ha sorprendido a los
+                        fanáticos con la noticia de que la esperada película no solo contará con el regreso de
+                        Hulk, sino que también presentará a un villano secreto que pondrá en jaque a todo el
+                        universo Marvel. Además, se ha confirmado que los X-Men también jugarán un papel crucial
+                        en la trama.</p>
+                    <a class="link" href="#">Ver más</a>
+                </article>
+
+                <article class=" mb-4">
+                    <img class="image img-fluid" src="./img/gta6real.jpg" alt="GTA 6">
+                    <h3>¡Exclusivo! GTA 6 Introducirá un Modo de Realidad Virtual Inmersiva y una Ciudad
+                        Submarina Secreta</h3>
+                    <p>¡La locura continúa en Grand Theft Auto VI! Rockstar Games ha revelado una sorprendente
+                        característica de su esperada secuela: un revolucionario modo de realidad virtual que
+                        promete sumergir a los jugadores en Vice City como nunca antes. Además, el juego
+                        incluirá una enigmática ciudad submarina secreta que los jugadores podrán explorar en
+                        busca de tesoros y secretos ocultos.</p>
+                    <a class="link" href="#">Ver más</a>
+                </article>
+
+                <article class="textcontainertres mb-4">
+                    <img class="image img-fluid" src="./img/dbzbudokai.webp" alt="Dragon Ball Budokai Tenkaichi 4">
+                    <h3>¡Bombazo en el Mundo del Videojuego! Dragon Ball Budokai Tenkaichi 4 Revela su Primer
+                        Tráiler y Nuevos Personajes Jugables</h3>
+                    <p>La espera ha terminado para los fanáticos de Dragon Ball! Bandai Namco ha sorprendido al
+                        mundo con el anuncio de Dragon Ball Budokai Tenkaichi 4, la última entrega de la
+                        aclamada serie de peleas. El primer tráiler oficial muestra un combate frenético y
+                        presenta una impresionante lista de nuevos personajes jugables, incluyendo a Ultra
+                        Instinct Goku y Super Saiyan Blue Vegeta.</p>
+                    <a class="link" href="#">Ver más</a>
+                </article>
+
+                <a class="link" href="./pages/noticias.html">Ver más noticias</a>
+            </section>
+
+            <!-- Trailers Section -->
+            <div class="col-12 mt-4">
+                <h2 class="subtitle">Últimos trailers</h2>
+                <section class="trailerflex d-flex flex-wrap justify-content-center">
+                    <div class="trailer mb-4 mx-2">
+                        <p>Kraven</p>
+                        <iframe width="100%" height="315"
+                            src="https://www.youtube.com/embed/pAGocNTmjGc?si=WtcivwtLi1FPnQn5" title="Kraven trailer"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    <div class="trailer mb-4 mx-2">
+                        <p>Deadpool y Wolverine</p>
+                        <iframe width="100%" height="315"
+                            src="https://www.youtube.com/embed/V4ZDKt9KICo?si=PGyvAaFx-9Qm1SqB"
+                            title="Deadpool y Wolverine trailer" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    <div class="trailer mb-4 mx-2">
+                        <p>Diablo 4</p>
+                        <iframe width="100%" height="315"
+                            src="https://www.youtube.com/embed/z_FH1ZJpXxY?si=y_DqpqGqaskgqMf5" title="Diablo 4 trailer"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    <div class="trailer mb-4 mx-2">
+                        <p>GTA 5</p>
+                        <iframe width="100%" height="315"
+                            src="https://www.youtube.com/embed/QkkoHAzjnUs?si=U4XRVRZbuSNQg6pI" title="GTA 5 trailer"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </section>
+                <a class="link d-block text-center mt-4" href="#">Más trailers</a>
+            </div>
+        </div>
+
+
+        </div>
+    </main>
+
+    <footer class="bg-dark text-light py-4 ">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12 col-md-4 text-center text-md-start mb-3 mb-md-0">
+                    <img class="logofooter img-fluid" src="../img/cavernageenk.jpeg" alt="CAVERNAGEEK">
+                </div>
+                <div class="col-12 col-md-8">
+                    <div
+                        class="d-flex flex-column flex-md-row justify-content-center justify-content-md-between align-items-center">
+                        <section class="redcontainer text-center text-md-start mb-3 mb-md-0">
+                            <h4 class="Copyright">Copyright @CAVERNAGEEK página solo para fines de estudio.</h4>
+                            <h5 class="red">Redes Sociales</h5>
+                            <nav class="navega d-flex justify-content-center">
+                                <a href="https://www.instagram.com/" class="me-3"><img
+                                        src="../img/icons8-instagram-48.png" alt="Instagram"></a>
+                                <a href="https://www.tiktok.com/"><img src="../img/icons8-tik-tok-48.png"
+                                        alt="TikTok"></a>
+                            </nav>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
