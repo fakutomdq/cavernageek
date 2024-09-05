@@ -53,51 +53,47 @@
     </header>
 
 
-    <main>
-
-        <div class="container-critic container.col-lg-12 ">
-            <section class="text-center mb-4">
-                <h1 class="display-4 title">Cavernageek</h1>
-
-            </section>
-            <aside class="filters">
+    <main class="container my-4">
+        <div class="row">
+            <!-- Aside de filtros -->
+            <aside class="col-md-3">
                 <h2>Filtros</h2>
                 <form>
                     <label for="category">Categoría:</label>
-                    <select id="category" name="category">
+                    <select id="category" name="category" class="form-select mb-3">
                         <option value="all">Todos</option>
-                        <option value="cat1">alfabeticamente</option>
-                        <option value="cat2">mas reciente</option>
+                        <option value="cat1">Alfabéticamente</option>
+                        <option value="cat2">Más reciente</option>
                     </select>
                     <!-- Agrega más filtros según sea necesario -->
                 </form>
                 <section class="ranking-container">
-                    <h2 class="ranking">nuestro ranking cinefilo</h2>
+                    <h2 class="ranking">Nuestro Ranking Cinefilo</h2>
                     <ol class="top">
-                        <li> deadpool y wolverine</li>
-                        <li>batman</li>
-                        <li>dejar el mundo atras</li>
-                        <li>rebel moon</li>
-                        <li>dune 2</li>
+                        <li>Deadpool y Wolverine</li>
+                        <li>Batman</li>
+                        <li>Dejar el Mundo Atrás</li>
+                        <li>Rebel Moon</li>
+                        <li>Dune 2</li>
                     </ol>
-                    <a href="#">nuestro top 20 de cine</a>
-                    <h2 class="ranking">nuestro ranking vicioso</h2>
+                    <a href="#">Nuestro Top 20 de Cine</a>
+                    <h2 class="ranking">Nuestro Ranking Vicioso</h2>
                     <ol class="top">
-                        <li>elder ring</li>
-                        <li>baldur gate 3</li>
-                        <li>cyberpunk 2077</li>
-                        <li>resident evil 2 remake</li>
-                        <li>grim dawn</li>
+                        <li>Elder Ring</li>
+                        <li>Baldur's Gate 3</li>
+                        <li>Cyberpunk 2077</li>
+                        <li>Resident Evil 2 Remake</li>
+                        <li>Grim Dawn</li>
                     </ol>
-                    <a href="#">nuestro top 20 de juegos</a>
+                    <a href="#">Nuestro Top 20 de Juegos</a>
                 </section>
             </aside>
-            <div class=" container mt-0 ">
+            <div class="  col-md-9 ">
                 <div class="row row-cols-1 row-cols-md-3 g-4">
                     <!-- Ajusta las columnas según el tamaño de la pantalla -->
                     <!-- Tarjeta 1 -->
                     <div class="col custom-spacing">
-                        <div class="titularcritica card col " style="width: 18rem;">
+                        <div class="card" style="width: 100%;">
                             <img class=" imagecritica " src="../img/wolberine.jpg" alt="deadpooltres">
                             <div class="card-body">
                                 <p class="card-text noti-critica">"Deadpool y Wolverine: Una Explosiva Combinación de
@@ -121,7 +117,7 @@
 
                     <!-- Tarjeta 2 -->
                     <div class="col custom-spacing">
-                        <div class=" card col " style="width: 18rem;">
+                        <div class="card" style="width: 100%;">
                             <img class=" imagecritica " src="../img/pokemon legends za.webp" alt="pokemon">
                             <div class="card-body">
                                 <p class="card-text">"Pokémon Legends ZA: Una Aventura Prometida que Se Queda en el
@@ -140,7 +136,7 @@
 
                     <!-- Tarjeta 3 -->
                     <div class="col custom-spacing">
-                        <div class="titularcritica card col " style="width: 18rem;">
+                        <div class="card" style="width: 100%;">
                             <img class="imagecritica" src="../img/shazam.webp" alt="shazam">
                             <div class="card-body">
                                 <p class="card-text">"Shazam: Un Deslumbrante Viaje de Superhéroes que Combina Magia y
@@ -158,8 +154,8 @@
                     </div>
 
                     <!-- Tarjeta 4 -->
-                    <div class="col">
-                        <div class="titularcritica card col " style="width: 18rem;">
+                    <div class="col custom-spacing">
+                        <div class="card" style="width: 100%;">
                             <img class="imagecritica card-img-top" src="../img/baldur gate 3.webp" alt="baldurgate">
                             <div class="card-body">
                                 <p class="card-text">"Baldur's Gate 3: Una Obra Maestra del Rol que Redefine el Género
@@ -181,8 +177,8 @@
                     </div>
 
                     <!-- Tarjeta 5 -->
-                    <div class="col">
-                        <div class="titularcritica card col " style="width: 18rem;">
+                    <div class="col custom-spacing">
+                        <div class="card" style="width: 100%;">
                             <img class=" imagecritica card-img-top" src="../img/justiceleague.webp" alt="justiceleague">
                             <div class="card-body">
                                 <p class="card-text">"Liga de la Justicia: Un Fallido Intento de Unidos por la Acción
@@ -201,23 +197,25 @@
                     </div>
 
                     <!-- Tarjeta 6 -->
-                    <div class="titularcritica card col " style="width: 18rem;">
+                    <div class="col custom-spacing">
+                        <div class="card" style="width: 100%;">
 
-                        <img class="imagecritica card-img-top" src="../img/thunderbolts.webp" alt="thunderbolts">
-                        <div class="card-body">
-                            <p class="card-text">"Thunderbolts: Un Intento Ambicioso que se Desinfla con una Trama
-                                Desordenada y Personajes Superficiales"</p>
-                            <div class="valoracion">
-                                <input id="radio1" type="radio" name="estrellas" value="5"><!--
+                            <img class="imagecritica card-img-top" src="../img/thunderbolts.webp" alt="thunderbolts">
+                            <div class="card-body">
+                                <p class="card-text">"Thunderbolts: Un Intento Ambicioso que se Desinfla con una Trama
+                                    Desordenada y Personajes Superficiales"</p>
+                                <div class="valoracion">
+                                    <input id="radio1" type="radio" name="estrellas" value="5"><!--
                                     --><label for="radio1">★</label><!--
                                     --><input id="radio2" type="radio" name="estrellas" value="4">
+                                </div>
+                                <a href="#">ver mas</a>
                             </div>
-                            <a href="#">ver mas</a>
-                        </div>
 
+                        </div>
                     </div>
                 </div>
-                </section>
+            </div>
 
     </main>
     <footer class="bg-dark text-light py-4">
