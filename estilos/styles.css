@@ -9,6 +9,7 @@
 
 
 * {
+    box-sizing: border-box;
     font-family: webroboto;
 
     margin: 0;
@@ -20,18 +21,10 @@
     font-size: 6rem;
     text-transform: uppercase;
     font-family: titulorubik;
-
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-
-
+    text-align: center;
     overflow-wrap: break-word;
     word-break: break-word;
-    text-align: center;
+    margin: 0 auto;
 }
 
 @media (max-width: 768px) {
@@ -58,37 +51,25 @@
     font-size: 3rem;
     text-transform: capitalize;
     font-family: webroboto;
-
-    margin: 2rem 2rem;
+    margin: 2rem;
     overflow-wrap: break-word;
     word-break: break-word;
 
 }
 
 .fondo {
-    background-color: #0f3b50;
-    width: 100%;
-    height: 100%;
-    background-repeat: repeat;
-    background-size: cover;
-    background-position: 2;
-background-image:url(../img/pv.jpg);
-
-}
+    background: url(../img/pv.jpg) no-repeat center center;
+    background-size: cover;}
 
 .carousel-item img {
-
-    background-repeat: no-repeat;
-    object-fit: initial;
-
-    height: 20rem;
-    width: 100%;
-
-}
+object-fit:initial;
+    height: 15rem;
+    width: 100%;}
 
 .carouselExampleCaptions {
     width: 100%;
-    background-size: cover;
+    background-size: contain;
+    height:auto;
 
 
 }
@@ -96,18 +77,13 @@ background-image:url(../img/pv.jpg);
 
 
 .logo {
-
-    height: 25%;
+    height: auto;
     width: 10rem;
     display: flex;
-    border-radius: 50rem;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-    /* Espacio entre el logo y el menú de navegación */
+    border-radius: 50%;
+    margin: 2rem 0;
     font-size: 1.5rem;
-    justify-content: center;
-
-}
+    justify-content: center;}
 
 /* main*/
 
@@ -115,24 +91,15 @@ background-image:url(../img/pv.jpg);
 
 
 
-.imagecritica {
-
-    aspect-ratio: 2/2;
-    object-fit: inherit;
-
-
-
+.image {
+    aspect-ratio: 1/1;
+    object-fit:initial;
 }
-
 
 .link {
     text-transform: uppercase;
-    margin-top: 2rem;
-    margin-bottom: 4rem;
-    display: flex;
-    flex-direction: column-reverse;
-    align-content: center;
-    flex-wrap: wrap;
+    margin: 2rem 0;
+    text-align: center;
 }
 
 .trailercontainer {
@@ -156,31 +123,25 @@ article h3 {
     color: #ffff00;
     font-size: 2rem;
     font-family: "New Amsterdam", sans-serif;
-    font-weight: 400;
-    font-style: oblique;
     font-weight: bolder;
     text-transform: capitalize;
-    display: flex;
-    align-items: start;
 }
 
 .font-critica {
     font-family: "New Amsterdam", sans-serif;
     font-weight: bolder;
-    font-style: initial;
     color: #0f3b50;
 }
 
 /*  estrellas de calificacion sacadas de una pagina con display y overflow*/
 .valoracion {
     position: relative;
-    overflow: hidden;
     display: inline-block;
 }
 
 .valoracion input {
     position: absolute;
-    top: -100px;
+    opacity: 0;
 }
 
 
@@ -302,13 +263,11 @@ textarea {
 /*FOOTER*/
 
 
-.footercontainer {
+.footer-container {
     background-color: #f1f1f1;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
-
 }
 
 .Copyright {
@@ -325,27 +284,21 @@ textarea {
 
 
 .logofooter {
-
     border-radius: 50%;
-    object-fit: initial;
     max-width: 150px;
-
-    margin-bottom: 1rem;
-    margin-top: 1rem;
+    margin: 1rem;
 }
 
 .redcontainer {
     margin-top: 3rem;
-    display: flex;
-    align-items: center;
-    flex-direction: column-reverse;
     text-align: center;
-
 }
+
 
 .red {
     margin: 1rem 0;
     font-weight: bold;
+    text-align: center;
 }
 
 
@@ -383,7 +336,8 @@ textarea {
 
 .container-critic {
     padding: 1rem 1rem 1rem 1rem;
-
+    object-fit: contain;
+    aspect-ratio: 2;
 }
 
 
@@ -410,12 +364,14 @@ textarea {
 
 
 
+
 .card {
     background-color: #fff;
     border: 1px solid #ddd;
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
 }
 
 .card img {
