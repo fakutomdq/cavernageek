@@ -1,0 +1,26 @@
+.footer-container {
+    background-color: #f1f1f1;
+    @include center-flex;
+    flex-direction: column;
+}
+
+.Copyright {
+    font-size: 1rem;
+}
+
+.logofooter {
+    border-radius: 50%;
+    max-width: 150px;
+    margin: 1rem;
+}
+
+.redcontainer {
+    margin-top: 3rem;
+    text-align: center;
+
+    .red {
+        margin: 1rem 0;
+        font-weight: bold;
+        text-align: center;
+    }
+}

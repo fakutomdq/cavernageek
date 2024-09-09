@@ -1,0 +1,17 @@
+// Mixin for border radius
+@mixin border-radius($radius) {
+    border-radius: $radius;
+  }
+  
+  @mixin center-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  @mixin responsive-font($font-size) {
+    font-size: $font-size;
+  
+    @media (max-width: 768px) {
+      font-size: $font-size * 0.8;
+    }
+  }

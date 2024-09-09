@@ -1,0 +1,16 @@
+$primary-color: #3498db;
+$primary-dark: #0f1417;
+$secondary-color: #2ecc71; // Ejemplo de color secundario
+$text-color: #fff;
+$text-color-hover: #fbefef;
+$font-main: 'webroboto', sans-serif;
+$font-heading: 'titulorubik', sans-serif;
+$font-noti: 'Sniglet', system-ui;
+$font-anton: 'Anton', sans-serif;
+$font-new-amsterdam: 'New Amsterdam', sans-serif;
+$font-size-large: 6rem;
+$font-size-medium: 3rem;
+$font-size-small: 2rem;
+$primary-light: lighten($primary-color, 20%);
+$primary-dark: darken($primary-color, 90%);
+
