@@ -128,7 +128,7 @@ a {
     cursor: pointer;
     font-size: 1rem;
     text-transform: uppercase;
-    transition: background-color 0.3s ease, color 0.3s ease;
+    transition: background-color 0.5s ease, color 0.5s ease;
   
     &:hover {
       background-color: $primary-dark;
