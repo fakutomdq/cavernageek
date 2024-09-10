@@ -2,7 +2,7 @@ h1.title {
   font-size: 3rem;
   text-transform: uppercase;
   text-align: center;
-  color: #0b0909;
+  color: #160336;
   overflow-wrap: break-word;
   word-break: break-word;
   margin: 0 auto;
@@ -17,7 +17,7 @@ h1.title {
 
 a {
   font-size: 1rem;
-  color: #100746;
+  color: #35a55e;
   text-decoration: none;
   transition: color 0.5s ease;
 }
@@ -27,19 +27,19 @@ a:hover {
 
 a.link {
   font-size: 1rem;
-  color: #2ecc71;
+  color: #0d2316;
 }
 
 body {
   font-family: "webroboto", sans-serif;
-  color: #0b0909;
+  color: #160336;
   background-color: #f5f5f5;
 }
 
 h1.title {
   font-family: "titulorubik", sans-serif;
   font-size: 6rem;
-  color: #100746;
+  color: #35a55e;
   font-size: 6rem;
 }
 @media (max-width: 768px) {
@@ -57,7 +57,7 @@ h2.subtitle,
 .subtitle {
   font-family: "New Amsterdam", sans-serif;
   font-size: 3rem;
-  color: #0b0909;
+  color: #160336;
   font-size: 3rem;
 }
 @media (max-width: 768px) {
@@ -80,8 +80,8 @@ h2.subtitle,
 }
 
 .btn {
-  background-color: #100746;
-  color: #0b0909;
+  background-color: #35a55e;
+  color: #160336;
   border: none;
   padding: 10px 20px;
   border-radius: 4px;
@@ -100,21 +100,21 @@ h2.subtitle,
 
 body {
   font-family: "webroboto", sans-serif;
-  color: #0b0909;
+  color: #160336;
   background-color: #f5f5f5;
 }
 
 h1.title {
   font-family: "titulorubik", sans-serif;
   font-size: 6rem;
-  color: #100746;
+  color: #35a55e;
 }
 
 h2.subtitle,
 h3.subtitle {
   font-family: "Anton", sans-serif;
   font-size: 1rem;
-  color: #0b0909;
+  color: #160336;
 }
 
 .carousel-item img {
@@ -166,7 +166,7 @@ header.criticas-pagina .navbar-expand-lg {
 header.criticas-pagina .navbar .navbar-nav .nav-link {
   font-size: 0.875rem;
   padding: 0.5rem 1rem;
-  color: #0b0909;
+  color: #160336;
 }
 header.criticas-pagina .navbar .navbar-nav .nav-link:hover {
   color: #cc2b2b;
@@ -178,7 +178,7 @@ header.criticas-pagina .navbar .navbar-nav .nav-link:hover {
 .navbar .navbar-nav .nav-link {
   font-size: 0.875rem;
   padding: 0.5rem 1rem;
-  color: #0b0909;
+  color: #160336;
 }
 .navbar .navbar-nav .nav-link:hover {
   color: #cc2b2b;
@@ -253,7 +253,7 @@ header .logo {
 }
 .pagina-especifica header .navbar-nav .nav-link:hover {
   color: #cc2b2b;
-  background-color: #2510a3;
+  background-color: #6fd193;
 }
 
 @media (max-width: 768px) {
@@ -380,7 +380,7 @@ footer .pagina-noticias footer .container .redcontainer .navega {
 }
 
 .card {
-  background-color: #924949;
+  background-color: #595a59;
   border: 1px solid #220588;
   border-radius: 8px;
   overflow: hidden;
@@ -402,7 +402,7 @@ footer .pagina-noticias footer .container .redcontainer .navega {
 .card .card-text {
   font-family: "Sniglet", system-ui;
   font-size: 0.875rem;
-  color: #0b0909;
+  color: #160336;
   margin-bottom: 1rem;
 }
 
@@ -495,7 +495,7 @@ body {
 }
 
 .font-noti h3 {
-  color: #2ecc71 font-size 1rem;
+  color: #0d2316 font-size 1rem;
 }
 
 .font-noti {
@@ -573,7 +573,7 @@ textarea {
 }
 
 .contbutom {
-  background-color: #2ecc71;
+  background-color: #0d2316;
   color: white;
   border: none;
   padding: 5px 5px;
@@ -647,7 +647,7 @@ textarea {
   padding: 0;
 }
 .critica .critica-info {
-  background-color: #2510a3;
+  background-color: #6fd193;
   padding: 1rem;
   border-radius: 0.5rem;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -655,14 +655,14 @@ textarea {
 }
 .critica .critica-info h2 {
   font-size: 3rem;
-  color: #0b0909;
+  color: #160336;
   margin-bottom: 0.5rem;
   font-family: "titulorubik", sans-serif;
 }
 .critica .critica-info p {
   font-size: 1rem;
   line-height: 1.5;
-  color: #0b0909;
+  color: #160336;
   margin-bottom: 0.5rem;
   font-family: "webroboto", sans-serif;
 }
@@ -673,29 +673,29 @@ textarea {
 }
 .critica .critica-info .rating-section .rating-container .rating {
   font-size: 1rem;
-  color: #0b0909;
+  color: #160336;
 }
 .critica .critica-info .rating-section .rating-container .rating .stars {
-  color: #2ecc71;
+  color: #0d2316;
 }
 .critica .critica-contenido h2 {
   font-size: 3rem;
   margin-top: 1rem;
   margin-bottom: 0.5rem;
-  color: #0b0909;
+  color: #160336;
   font-family: "titulorubik", sans-serif;
 }
 .critica .critica-contenido p {
   font-size: 1rem;
   line-height: 1.5;
-  color: #0b0909;
+  color: #160336;
   margin-bottom: 1rem;
   font-family: "webroboto", sans-serif;
 }
 .critica .critica-contenido ul {
   padding-left: 1.5rem;
   font-size: 1rem;
-  color: #0b0909;
+  color: #160336;
   margin-bottom: 1rem;
 }
 .critica .critica-contenido ul li {
@@ -706,7 +706,7 @@ textarea {
   padding: 1rem;
   border-radius: 0.5rem;
   font-size: 1rem;
-  color: #0b0909;
+  color: #160336;
   font-family: "webroboto", sans-serif;
 }
 
@@ -719,7 +719,7 @@ aside {
 aside h2 {
   font-size: 3rem;
   margin-bottom: 0.5rem;
-  color: #0b0909;
+  color: #160336;
   font-family: "titulorubik", sans-serif;
 }
 aside form {
@@ -730,7 +730,7 @@ aside .ranking-container {
 }
 aside .ranking-container .ranking {
   font-size: 3rem;
-  color: #0b0909;
+  color: #160336;
   font-family: "titulorubik", sans-serif;
 }
 aside .ranking-container .top {
@@ -738,7 +738,7 @@ aside .ranking-container .top {
   padding-left: 1rem;
 }
 aside .ranking-container a {
-  color: #100746;
+  color: #35a55e;
   text-decoration: none;
 }
 aside .ranking-container a:hover {
@@ -786,14 +786,14 @@ form select {
 .pagina-noticias main {
   padding: 2rem;
   background-color: #f5f5f5;
-  color: #0b0909;
+  color: #160336;
 }
 .pagina-noticias main .news-header {
   font-size: 3rem;
   font-family: "Sniglet", system-ui;
   margin-bottom: 1.5rem;
   text-align: center;
-  color: #100746;
+  color: #35a55e;
 }
 .pagina-noticias main section {
   margin-bottom: 2rem;
