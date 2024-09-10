@@ -1,26 +1,71 @@
-.footer-container {
-    background-color: #f1f1f1;
-    @include center-flex;
-    flex-direction: column;
-}
-
-.Copyright {
-    font-size: 1rem;
-}
-
-.logofooter {
-    border-radius: 50%;
-    max-width: 150px;
-    margin: 1rem;
-}
-
-.redcontainer {
-    margin-top: 3rem;
-    text-align: center;
-
+// Estilos generales para el footer
+footer {
+    &.bg-dark {
+      background-color: #f1f1f1;
+      color: #333;
+      padding: 1rem 0;
+    }
+  
+    .logofooter {
+      border-radius: 50%;
+      max-width: 150px;
+      margin: 1rem;
+    }
+  
+    .redcontainer {
+      margin-top: 3rem;
+      text-align: center;
+    }
+  
     .red {
-        margin: 1rem 0;
+      font-weight: bold;
+      text-align: center;
+    }
+  
+    .Copyright {
+      font-size: 1rem;
+    }
+  
+    .navega {
+      a {
+        margin-right: 1rem;
+  
+        img {
+          max-width: 50px;
+        }
+      }
+    }
+  
+    // Estilos específicos para la página "Crisis en Tierras Infinitas Parte 2 - Crítica"
+    &.criticas-footer {
+      background-color: #111;
+      color: #ccc;
+  
+      .logofooter {
+        max-width: 120px;
+      }
+  
+      .redcontainer {
+        margin-top: 2rem;
+      }
+  
+      .red {
         font-weight: bold;
         text-align: center;
+      }
+  
+      .Copyright {
+        font-size: 0.9rem;
+      }
+  
+      .navega {
+        a {
+          margin-right: 0.5rem;
+  
+          img {
+            max-width: 40px;
+          }
+        }
+      }
     }
-}
+  }
