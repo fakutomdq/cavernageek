@@ -1,0 +1,175 @@
+.critica {
+    .row {
+      margin: 0; 
+    }
+  
+    .col-md-4,
+    .col-md-8 {
+      padding: 0; 
+    }
+  
+    .critica-info {
+      background-color: $primary-light; 
+      padding: 1rem; 
+      border-radius: 0.5rem; 
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+      margin-bottom: 1rem; 
+  
+      h2 {
+        font-size: $font-size-medium; 
+        color: $text-color; 
+        margin-bottom: 0.5rem; 
+        font-family: $font-heading; 
+      }
+  
+      p {
+        font-size: $font-size-small; 
+        line-height: 1.5; 
+        color: $text-color; 
+        margin-bottom: 0.5rem; 
+        font-family: $font-main; 
+      }
+  
+      .rating-section {
+        .rating-container {
+          background-color: $carousel-bg-color; 
+          padding: 0.5rem; 
+          border-radius: 0.3rem; 
+  
+          .rating {
+            font-size: $font-size-small; 
+            color: $text-color; 
+  
+            .stars {
+              color: $secondary-color; 
+            }
+          }
+        }
+      }
+    }
+  
+    .critica-contenido {
+      h2 {
+        font-size: $font-size-medium; 
+        margin-top: 1rem; 
+        margin-bottom: 0.5rem; 
+        color: $text-color; 
+        font-family: $font-heading; 
+      }
+  
+      p {
+        font-size: $font-size-small; 
+        line-height: 1.5; 
+        color: $text-color; 
+        margin-bottom: 1rem; 
+        font-family: $font-main; 
+      }
+  
+      ul {
+        padding-left: 1.5rem; 
+        font-size: $font-size-small; 
+        color: $text-color; 
+        margin-bottom: 1rem;
+  
+        li {
+          margin-bottom: 0.5rem;
+        }
+      }
+    }
+  
+    .puntuacion {
+      background-color: $carousel-bg-color; 
+      padding: 1rem; 
+      border-radius: 0.5rem; 
+      font-size: $font-size-small; 
+      color: $text-color; 
+      font-family: $font-main;
+    }
+}
+aside {
+    background-color: $carousel-bg-color;
+    padding: 0.5rem;
+    border-radius: 0.5rem; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  
+    h2 {
+      font-size: $font-size-medium; 
+      margin-bottom: 0.5rem; 
+      color: $text-color; 
+      font-family: $font-heading; 
+    }
+  
+    form {
+      margin-bottom: 1rem; 
+    }
+  
+    .ranking-container {
+      margin-top: 0.5rem; 
+  
+      .ranking {
+        font-size: $font-size-medium; 
+        color: $text-color; 
+        font-family: $font-heading; 
+      }
+  
+      .top {
+        list-style-type: decimal; 
+        padding-left: 1rem; 
+      }
+  
+      a {
+        color: $primary-color; 
+        text-decoration: none; 
+        &:hover {
+          text-decoration: underline; 
+        }
+      }
+    }
+  }
+  
+  
+  form {
+    label {
+      font-size: $font-size-small; 
+    }
+  
+    select {
+      font-size: $font-size-small; 
+    }
+  }
+  .review-item {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 0.5rem;
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .font-critica {
+        font-family: $font-noti;
+        font-size: $font-size-small;
+        font-weight: bolder;
+        color: #0f3b50;
+    }
+
+
+}
+
+.ranking-container {
+    padding-top: 1rem;
+
+    .ranking {
+        
+        text-transform: capitalize;
+        font-family: $font-new-amsterdam;
+        font-size: $font-size-small;
+    }
+    .top{
+        font-size: $font-size-small
+    }
+}

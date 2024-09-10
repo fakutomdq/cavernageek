@@ -1,71 +1,120 @@
 // Estilos generales para el footer
 footer {
-    &.bg-dark {
-      background-color: #f1f1f1;
-      color: #333;
-      padding: 1rem 0;
+  &.bg-dark {
+    background-color: #f1f1f1;
+    color: #060404;
+    padding: 1rem 0;
+  }
+
+  .logofooter {
+    border-radius: 50%;
+    max-width: 150px;
+    margin: 1rem;
+  }
+
+  .redcontainer {
+    margin-top: 3rem;
+    text-align: center;
+  }
+
+  .red {
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .Copyright {
+    font-size: 1rem;
+  }
+
+  .navega {
+    a {
+      margin-right: 1rem;
+
+      img {
+        max-width: 20px;
+      }
     }
-  
+  }
+
+  .criticas-footer {
+    background-color: $primary-dark;
+    color: $text-color-light;
+    padding: 2rem 1rem;
+
     .logofooter {
-      border-radius: 50%;
       max-width: 150px;
-      margin: 1rem;
+      margin: 1rem auto;
     }
-  
+
     .redcontainer {
-      margin-top: 3rem;
       text-align: center;
+      margin-top: 1.5rem;
+
+      .Copyright {
+        font-size: $font-size-small;
+      }
+
+      .red {
+        font-weight: bold;
+        margin: 1rem 0;
+      }
     }
-  
-    .red {
-      font-weight: bold;
-      text-align: center;
-    }
-  
-    .Copyright {
-      font-size: 1rem;
-    }
-  
+
     .navega {
       a {
-        margin-right: 1rem;
-  
+        margin: 0 0.5rem;
+
         img {
-          max-width: 50px;
+          width: 2rem;
+          height: auto;
+          transition: opacity 0.8s;
+        }
+
+        &:hover img {
+          opacity: 0.8;
+
         }
       }
     }
-  
-    // Estilos específicos para la página "Crisis en Tierras Infinitas Parte 2 - Crítica"
-    &.criticas-footer {
-      background-color: #111;
-      color: #ccc;
-  
-      .logofooter {
-        max-width: 120px;
-      }
-  
-      .redcontainer {
-        margin-top: 2rem;
-      }
-  
-      .red {
-        font-weight: bold;
-        text-align: center;
-      }
-  
-      .Copyright {
-        font-size: 0.9rem;
-      }
-  
-      .navega {
-        a {
-          margin-right: 0.5rem;
-  
-          img {
-            max-width: 40px;
+
+   
+    @media (max-width: 768px) {
+      .criticas-footer {
+        .redcontainer {
+          text-align: center; 
+        }
+
+        .navega {
+          flex-direction: column; 
+
+          a {
+            margin: 0.5rem 0; 
           }
         }
       }
     }
   }
+
+  .pagina-noticias {
+    footer {
+      background-color: $primary-dark;
+      color: $text-color-light;
+
+      .container {
+        .redcontainer {
+          .Copyright {
+            font-size: $font-size-xsmall;
+          }
+
+          .red {
+            font-size: $font-size-small;
+          }
+
+          .navega {
+            justify-content: center;
+          }
+        }
+      }
+    }
+  }
+}

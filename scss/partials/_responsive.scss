@@ -1,19 +1,46 @@
-@media (max-width: 768px) {
-    .title {
-        font-size: $font-size-small;
-        padding: 15px;
-        margin: 15px 0;
-    }
-}
+@import 'mixins';
+@import 'variable';
 
-@media (max-width: 480px) {
-    .title {
-        padding: 10px;
-        margin: 10px 0;
-    }
+
+body {
+    @include responsive-font($font-size-medium);
 }
 @media (max-width: 768px) {
-    .carousel-item {
-      min-width: 100%;
+    .title {
+      font-size: 2rem;
+      padding: 15px;
+      margin: 15px 0;
+    }
+  
+    .subtitle {
+      font-size: 2rem;
+    }
+  
+    .carousel-item img {
+      height: 12rem;
+    }
+  
+    .link {
+      font-size: $font-size-xsmall;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .title {
+      font-size: 1.5rem;
+      padding: 10px;
+      margin: 10px 0;
+    }
+  
+    .subtitle {
+      font-size: 1.5rem;
+    }
+  
+    .carousel-item img {
+      height: 10rem;
+    }
+  
+    .link {
+      font-size: $font-size-xsmall;
     }
   }

@@ -1,17 +1,48 @@
-// Mixin for border radius
+
 @mixin border-radius($radius) {
-    border-radius: $radius;
-  }
-  
-  @mixin center-flex {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  @mixin responsive-font($font-size) {
-    font-size: $font-size;
-  
-    @media (max-width: 768px) {
+  border-radius: $radius;
+}
+
+
+@mixin center-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+@mixin responsive-font($font-size) {
+  font-size: $font-size;
+
+  @media (max-width: 768px) {
       font-size: $font-size * 0.8;
-    }
   }
+}
+@mixin responsive-font($size) {
+  font-size: $size;
+
+  @media (max-width: 768px) {
+    font-size: ($size * 0.8); 
+  }
+
+  @media (max-width: 480px) {
+    font-size: ($size * 0.6); 
+  }
+}
+
+@mixin clearfix() {
+  &:before,
+  &:after {
+      content: " ";
+      display: table;
+  }
+
+  &:after {
+      clear: both;
+  }
+}
+@mixin center-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,16 +1,19 @@
 %title-style {
-    font-size: 6rem;
-    text-transform: uppercase;
-    text-align: center;
-    overflow-wrap: break-word;
-    word-break: break-word;
-    margin: 0 auto;
-  }
-  
-  %subtitle-style {
-    font-size: 3rem;
-    text-transform: capitalize;
-    margin: 2rem;
-    overflow-wrap: break-word;
-    word-break: break-word;
-  }
+  font-size: $font-size-medium;
+  text-transform: uppercase;
+  text-align: center;
+  color: $text-color; 
+  overflow-wrap: break-word;
+  word-break: break-word;
+  margin: 0 auto;
+}
+
+
+%subtitle-style {
+  font-size: $font-size-medium;
+  text-transform: capitalize;
+  color: $text-color; 
+  margin: 2rem;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}

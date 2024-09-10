@@ -1,6 +1,6 @@
 .card {
-    background-color: #fff;
-    border: 1px solid #ddd;
+    background-color: #924949;
+    border: 1px solid #220588;
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -12,44 +12,23 @@
 
     .card-content {
         padding: 15px;
+
     }
-}
-
-.review-item {
-    display: flex;
-    flex-direction: column;
-    align-items: baseline;
-    border: 1px solid #ddd;
-    padding: 1rem;
-    border-radius: 0.5rem;
-
-    img {
-        max-width: 100%;
-        height: auto;
-    }
-
-    .font-critica {
-        font-family: $font-new-amsterdam;
+    .card-title {
+        font-family: $font-noti;
+        font-size: $card-title-font-size;
         font-weight: bolder;
-        color: #0f3b50;
-    }
+       
+        margin-bottom: 0.5rem;
+      }
+  
+      .card-text {
+        font-family: $font-noti;
+        font-size: $card-text-font-size;
 
-    .font-noti {
-        color: #ffff00;
-        font-size: $font-size-small;
-        font-family: $font-new-amsterdam;
-        font-weight: bolder;
-        text-transform: capitalize;
-    }
+        color: $text-color;
+        margin-bottom: 1rem;
+      }
+  
 }
 
-.ranking-container {
-    padding-top: 1rem;
-
-    .ranking {
-        text-decoration: underline;
-        text-transform: capitalize;
-        font-family: cursive;
-        font-size: medium;
-    }
-}
