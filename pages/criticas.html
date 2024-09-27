@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>lacavernageek</title>
+    <title>Cavernageek | Críticas y Noticias de Cine y Videojuegos</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap" rel="stylesheet">
@@ -56,112 +56,124 @@
     <main class="container my-4">
         <div class=" container row">
             <!-- Aside de filtros -->
-            <aside class="col-md-3">
-                <h2>Filtros</h2>
-                <form>
-                    <label for="category">Categoría:</label>
-                    <select id="category" name="category" class="form-select mb-3">
-                        <option value="all">Todos</option>
-                        <option value="cat1">Alfabéticamente</option>
-                        <option value="cat2">Más reciente</option>
-                    </select>
-                    <!-- Agrega más filtros según sea necesario -->
-                </form>
-                <section class="ranking-container">
-                    <h2 class="ranking">Nuestro Ranking Cinefilo</h2>
-                    <ol class="top">
-                        <li>Deadpool y Wolverine</li>
-                        <li>Batman</li>
-                        <li>Dejar el Mundo Atrás</li>
-                        <li>Rebel Moon</li>
-                        <li>Dune 2</li>
-                    </ol>
-                    <a href="#">Nuestro Top 20 de Cine</a>
-                    <h2 class="ranking">Nuestro Ranking Vicioso</h2>
-                    <ol class="top">
-                        <li>Elder Ring</li>
-                        <li>Baldur's Gate 3</li>
-                        <li>Cyberpunk 2077</li>
-                        <li>Resident Evil 2 Remake</li>
-                        <li>Grim Dawn</li>
-                    </ol>
-                    <a href="#">Nuestro Top 20 de Juegos</a>
-                </section>
+            <aside class="col-lg-2 col-md-4 mb-4">
+                <div class="sidebar">
+                    <h2>Filtros</h2>
+                    <form>
+                        <label for="category">Categoría:</label>
+                        <select id="category" name="category" class="form-select mb-3">
+                            <option value="all">Todos</option>
+                            <option value="cat1">Alfabéticamente</option>
+                            <option value="cat2">Más reciente</option>
+                        </select>
+                        <!-- Agrega más filtros según sea necesario -->
+                    </form>
+                    <section class="ranking-container">
+                        <h2 class="ranking">Nuestro Ranking Cinefilo</h2>
+                        <ol class="top">
+                            <li>Deadpool y Wolverine</li>
+                            <li>Batman</li>
+                            <li>Dejar el Mundo Atrás</li>
+                            <li>Rebel Moon</li>
+                            <li>Dune 2</li>
+                        </ol>
+                        <a href="#">Nuestro Top 20 de Cine</a>
+                        <h2 class="ranking">Nuestro Ranking Vicioso</h2>
+                        <ol class="top">
+                            <li>Elder Ring</li>
+                            <li>Baldur's Gate 3</li>
+                            <li>Cyberpunk 2077</li>
+                            <li>Resident Evil 2 Remake</li>
+                            <li>Grim Dawn</li>
+                        </ol>
+                        <a href="#">Nuestro Top 20 de Juegos</a>
+                    </section>
+                </div>
             </aside>
-            <div class=" container  col-md-9 ">
-                <div class="row row-cols-1 row-cols-md-3 g-4">
-                    <!-- Ajusta las columnas según el tamaño de la pantalla -->
-                    <!-- Tarjeta 1 -->
-                    <div class="col custom-spacing">
-                        <div class="card" style="width: 100%;">
+            <div class=" flex-con container   col-md-9 ">
+
+                <!-- Ajusta las columnas según el tamaño de la pantalla -->
+                <!-- Tarjeta 1 -->
+                <div class="col custom-spacing">
+
+                    <div class="card" style="width:  18rem;">
+                        <div class="image-container">
                             <img class=" imagecritica " src="../img/wolberine.jpg" alt="deadpooltres">
-                            <div class="card-body">
-                                <p class="card-text noti-critica">"Deadpool y Wolverine: Una Explosiva Combinación de
-                                    Humor y Acción
-                                    que Revitaliza el Género"</p>
-                                <div class="valoracion">
-                                    <input id="radio1" type="radio" name="estrellas" value="5">
-                                    <label for="radio1">★</label>
-                                    <input id="radio2" type="radio" name="estrellas" value="4">
-                                    <label for="radio2">★</label>
-                                    <input id="radio3" type="radio" name="estrellas" value="3">
-                                    <label for="radio3">★</label>
-                                    <input id="radio4" type="radio" name="estrellas" value="2">
-                                    <label for="radio4">★</label>
+                        </div>
 
-                                </div>
-                                <a href="#">ver más</a>
+                        <div class="card-body">
+                            <p class="card-text noti-critica">"Deadpool y Wolverine: Una Explosiva Combinación de
+                                Humor y Acción
+                                que Revitaliza el Género"</p>
+                            <div class="valoracion">
+                                <input id="radio1" type="radio" name="estrellas" value="5">
+                                <label for="radio1">★</label>
+                                <input id="radio2" type="radio" name="estrellas" value="4">
+                                <label for="radio2">★</label>
+                                <input id="radio3" type="radio" name="estrellas" value="3">
+                                <label for="radio3">★</label>
+                                <input id="radio4" type="radio" name="estrellas" value="2">
+                                <label for="radio4">★</label>
+
                             </div>
+                            <a href="#">ver más</a>
                         </div>
                     </div>
+                </div>
 
-                    <!-- Tarjeta 2 -->
-                    <div class="col custom-spacing">
-                        <div class="card" style="width: 100%;">
+                <!-- Tarjeta 2 -->
+                <div class="col custom-spacing">
+                    <div class="card" style="width:  18rem;">
+                        <div class="image-container">
                             <img class=" imagecritica " src="../img/pokemon legends za.webp" alt="pokemon">
-                            <div class="card-body">
-                                <p class="card-text">"Pokémon Legends ZA: Una Aventura Prometida que Se Queda en el
-                                    Bosque de lo Ordinario"</p>
-                                <div class="valoracion">
-                                    <input id="radio1" type="radio" name="estrellas" value="5">
-                                    <label for="radio1">★</label>
-                                    <input id="radio2" type="radio" name="estrellas" value="4">
-                                    <label for="radio2">★</label>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">"Pokémon Legends ZA: Una Aventura Prometida que Se Queda en el
+                                Bosque de lo Ordinario"</p>
+                            <div class="valoracion">
+                                <input id="radio1" type="radio" name="estrellas" value="5">
+                                <label for="radio1">★</label>
+                                <input id="radio2" type="radio" name="estrellas" value="4">
+                                <label for="radio2">★</label>
 
-                                </div>
-                                <a href="#">ver más</a>
                             </div>
+                            <a href="#">ver más</a>
                         </div>
                     </div>
+                </div>
 
-                    <!-- Tarjeta 3 -->
-                    <div class="col custom-spacing">
-                        <div class="card" style="width: 100%;">
+                <!-- Tarjeta 3 -->
+                <div class="col custom-spacing">
+                    <div class="card" style="width:  18rem;">
+                        <div class="image-container">
                             <img class="imagecritica" src="../img/shazam.webp" alt="shazam">
-                            <div class="card-body">
-                                <p class="card-text">"Shazam: Un Deslumbrante Viaje de Superhéroes que Combina Magia y
-                                    Carisma"</p>
-                                <div class="valoracion">
-                                    <input id="radio1" type="radio" name="estrellas" value="5">
-                                    <label for="radio1">★</label>
-                                    <input id="radio2" type="radio" name="estrellas" value="4">
-                                    <label for="radio2">★</label>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">"Shazam: Un Deslumbrante Viaje de Superhéroes que Combina Magia y
+                                Carisma"</p>
+                            <div class="valoracion">
+                                <input id="radio1" type="radio" name="estrellas" value="5">
+                                <label for="radio1">★</label>
+                                <input id="radio2" type="radio" name="estrellas" value="4">
+                                <label for="radio2">★</label>
 
-                                </div>
-                                <a href="#">ver más</a>
                             </div>
+                            <a href="#">ver más</a>
                         </div>
                     </div>
+                </div>
 
-                    <!-- Tarjeta 4 -->
-                    <div class="col custom-spacing">
-                        <div class="card" style="width: 100%;">
+                <!-- Tarjeta 4 -->
+                <div class="col custom-spacing">
+                    <div class="card" style="width:  18rem;">
+                        <div class="image-container">
                             <img class="imagecritica card-img-top" src="../img/baldur gate 3.webp" alt="baldurgate">
-                            <div class="card-body">
-                                <p class="card-text">"Baldur's Gate 3: Una Obra Maestra del Rol que Redefine el Género
-                                    con Profundidad y Libertad"</p>
-                                <div class="valoracion">
-                                    <input id="radio1" type="radio" name="estrellas" value="5"><!--
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">"Baldur's Gate 3: Una Obra Maestra del Rol que Redefine el Género
+                                con Profundidad y Libertad"</p>
+                            <div class="valoracion">
+                                <input id="radio1" type="radio" name="estrellas" value="5"><!--
                                     --><label for="radio1">★</label><!--
                                     --><input id="radio2" type="radio" name="estrellas" value="4"><!--
                                     --><label for="radio2">★</label><!--
@@ -171,51 +183,56 @@
                                     --><label for="radio4">★</label><!--
                                     --><input id="radio5" type="radio" name="estrellas" value="1"><!--
                                     --><label for="radio5">★</label>
-                                </div>
                             </div>
+                        <a href="#">ver mas</a>
                         </div>
                     </div>
+                </div>
 
-                    <!-- Tarjeta 5 -->
-                    <div class="col custom-spacing">
-                        <div class="card" style="width: 100%;">
+                <!-- Tarjeta 5 -->
+                <div class="col custom-spacing">
+                    <div class="card" style="width:  18rem;">
+                        <div class="image-container">
                             <img class=" imagecritica card-img-top" src="../img/justiceleague.webp" alt="justiceleague">
-                            <div class="card-body">
-                                <p class="card-text">"Liga de la Justicia: Un Fallido Intento de Unidos por la Acción
-                                    que Deja Frío al Público"</p>
-                                <div class="valoracion">
-                                    <input id="radio1" type="radio" name="estrellas" value="5"><!--
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">"Liga de la Justicia: Un Fallido Intento de Unidos por la Acción
+                                que Deja Frío al Público"</p>
+                            <div class="valoracion">
+                                <input id="radio1" type="radio" name="estrellas" value="5"><!--
                                     --><label for="radio1">★</label><!--
                                     --><input id="radio2" type="radio" name="estrellas" value="4"><!--
                                     --><label for="radio2">★</label><!--
                                     --><input id="radio3" type="radio" name="estrellas" value="3"><!--
                                     --><label for="radio3">★</label>
-                                </div>
-                                <a href="#">ver mas</a>
                             </div>
-                        </div>
-                    </div>
-
-                    <!-- Tarjeta 6 -->
-                    <div class="col custom-spacing">
-                        <div class="card" style="width: 100%;">
-
-                            <img class="imagecritica card-img-top" src="../img/thunderbolts.webp" alt="thunderbolts">
-                            <div class="card-body">
-                                <p class="card-text">"Thunderbolts: Un Intento Ambicioso que se Desinfla con una Trama
-                                    Desordenada y Personajes Superficiales"</p>
-                                <div class="valoracion">
-                                    <input id="radio1" type="radio" name="estrellas" value="5"><!--
-                                    --><label for="radio1">★</label><!--
-                                    --><input id="radio2" type="radio" name="estrellas" value="4">
-                                </div>
-                                <a href="#">ver mas</a>
-                            </div>
-
+                            <a href="#">ver mas</a>
                         </div>
                     </div>
                 </div>
+
+                <!-- Tarjeta 6 -->
+                <div class="col custom-spacing">
+                    <div class="card" style="width: 18rem;">
+                        <div class="image-container">
+
+                            <img class="imagecritica card-img-top" src="../img/thunderbolts.webp" alt="thunderbolts">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">"Thunderbolts: Un Intento Ambicioso que se Desinfla con una Trama
+                                Desordenada y Personajes Superficiales"</p>
+                            <div class="valoracion">
+                                <input id="radio1" type="radio" name="estrellas" value="5"><!--
+                                    --><label for="radio1">★</label><!--
+                                    --><input id="radio2" type="radio" name="estrellas" value="4">
+                            </div>
+                            <a href="#">ver mas</a>
+                        </div>
+
+                    </div>
+                </div>
             </div>
+        </div>
 
     </main>
     <footer class="bg-dark text-light py-4">

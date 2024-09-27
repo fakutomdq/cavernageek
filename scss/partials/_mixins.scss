@@ -46,3 +46,9 @@
   justify-content: center;
   align-items: center;
 }
+@mixin responsive-title($font-size) {
+  font-size: $font-size;
+  line-height: 1.2;
+  margin: 0;
+  padding: 0;
+}

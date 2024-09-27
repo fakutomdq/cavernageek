@@ -44,6 +44,7 @@ footer {
     .logofooter {
       max-width: 150px;
       margin: 1rem auto;
+      width: $logo-size;
     }
 
     .redcontainer {
@@ -78,43 +79,5 @@ footer {
     }
 
    
-    @media (max-width: 768px) {
-      .criticas-footer {
-        .redcontainer {
-          text-align: center; 
-        }
-
-        .navega {
-          flex-direction: column; 
-
-          a {
-            margin: 0.5rem 0; 
-          }
-        }
-      }
-    }
-  }
-
-  .pagina-noticias {
-    footer {
-      background-color: $primary-dark;
-      color: $text-color-light;
-
-      .container {
-        .redcontainer {
-          .Copyright {
-            font-size: $font-size-xsmall;
-          }
-
-          .red {
-            font-size: $font-size-small;
-          }
-
-          .navega {
-            justify-content: center;
-          }
-        }
-      }
-    }
   }
 }

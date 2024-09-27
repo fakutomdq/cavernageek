@@ -1,13 +1,15 @@
-@import 'partials/variable';
-@import 'partials/mixins';
-@import 'partials/base';
-@import 'partials/header';
-@import 'partials/footer';
-@import 'partials/cards';
-@import 'partials/responsive';
-@import 'partials/other-styles';
-@import 'partials/critica';
-@import 'partials/notice';
+@import 'partials/variable';  // 1. Variables
+@import 'partials/mixins';     // 2. Mixins
+@import 'partials/base';       // 3. Estilos base
+@import 'partials/cards';      // 4. Componentes
+@import 'partials/critica';    // 5. Críticas
+@import 'partials/extends';    // 6. Extensiones
+@import 'partials/footer';     // 7. Pie de página
+@import 'partials/header';     // 8. Encabezado
+@import 'partials/notice';     // 9. Notificaciones
+@import 'partials/other-styles'; // 10. Otros estilos
+@import 'partials/responsive';  
+
 
 @font-face {
     font-family: 'WebRoboto';

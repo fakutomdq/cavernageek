@@ -32,7 +32,7 @@
   
       .rating-section {
         .rating-container {
-          background-color: $carousel-bg-color; 
+          
           padding: 0.5rem; 
           border-radius: 0.3rem; 
   
@@ -78,7 +78,7 @@
     }
   
     .puntuacion {
-      background-color: $carousel-bg-color; 
+      background-color: #c0e102; 
       padding: 1rem; 
       border-radius: 0.5rem; 
       font-size: $font-size-small; 
@@ -87,7 +87,7 @@
     }
 }
 aside {
-    background-color: $carousel-bg-color;
+   
     padding: 0.5rem;
     border-radius: 0.5rem; 
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
@@ -96,7 +96,7 @@ aside {
       font-size: $font-size-medium; 
       margin-bottom: 0.5rem; 
       color: $text-color; 
-      font-family: $font-heading; 
+      font-family: $font-noti; 
     }
   
     form {
@@ -107,7 +107,7 @@ aside {
       margin-top: 0.5rem; 
   
       .ranking {
-        font-size: $font-size-medium; 
+        font-size: $font-size-small; 
         color: $text-color; 
         font-family: $font-heading; 
       }
@@ -141,20 +141,20 @@ aside {
     display: flex;
     flex-direction: column;
     align-items: baseline;
-    border: 1px solid #ddd;
+    border: 1px solid #351515;
     padding: 1rem;
     border-radius: 0.5rem;
 
     img {
         max-width: 100%;
-        height: auto;
+        height: 20rem;
     }
 
     .font-critica {
         font-family: $font-noti;
         font-size: $font-size-small;
         font-weight: bolder;
-        color: #0f3b50;
+        color: #00015a;
     }
 
 
@@ -172,4 +172,45 @@ aside {
     .top{
         font-size: $font-size-small
     }
+}
+.card {
+  width: 18rem;
+  margin-bottom: 20px;
+  border: 1px solid $secondary-color;
+  border-radius: 8px;
+  transition: transform 0.3s, box-shadow 0.3s;
+
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+
+  .image-container {
+    height: $carousel-img-height; // Altura de las imágenes
+    overflow: hidden;
+
+    .imagecritica {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .card-body {
+    padding: 1rem;
+
+    .card-text {
+      font-size: $card-text-font-size;
+    }
+
+    .card-title {
+      font-size: $card-title-font-size;
+      font-family: $font-heading;
+    }
+  }
+}
+.flex-con{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
