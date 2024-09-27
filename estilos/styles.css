@@ -101,7 +101,7 @@ h2.subtitle {
   color: #10002c;
 }
 .critica .critica-info .rating-section .rating-container .rating .stars {
-  color: #88908b;
+  color: #00be46;
 }
 .critica .critica-contenido h2 {
   font-size: 3rem;
@@ -201,7 +201,7 @@ form select {
 .ranking-container .ranking {
   text-transform: capitalize;
   font-family: "New Amsterdam", sans-serif;
-  font-size: 1rem;
+  font-size: 3rem;
 }
 .ranking-container .top {
   font-size: 1rem;
@@ -210,7 +210,7 @@ form select {
 .card {
   width: 18rem;
   margin-bottom: 20px;
-  border: 1px solid #88908b;
+  border: 1px solid #00be46;
   border-radius: 8px;
   transition: transform 0.3s, box-shadow 0.3s;
 }
@@ -273,7 +273,7 @@ footer .navega a img {
 }
 footer .criticas-footer {
   background-color: black;
-  color: #060505;
+  color: #000986;
   padding: 2rem 1rem;
 }
 footer .criticas-footer .logofooter {
@@ -322,7 +322,7 @@ header .logo {
 }
 header nav .nav-link {
   font-size: 1rem;
-  color: #060505;
+  color: #000986;
   transition: color 0.5s;
 }
 header nav .nav-link:hover {
@@ -479,7 +479,7 @@ header nav .nav-link:hover {
 }
 
 .font-noti h3 {
-  color: #88908b font-size 1rem;
+  color: #00be46 font-size 1rem;
 }
 
 .font-noti {
@@ -558,7 +558,7 @@ textarea {
 }
 
 .contbutom {
-  background-color: #88908b;
+  background-color: #00be46;
   color: rgb(36, 2, 159);
   border: none;
   padding: 5px 5px;
@@ -675,7 +675,7 @@ body {
 }
 .pagina-noticias footer {
   background-color: black;
-  color: #060505;
+  color: #000986;
 }
 .pagina-noticias footer .container .redcontainer .Copyright {
   font-size: 0.75rem;
