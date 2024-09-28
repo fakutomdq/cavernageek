@@ -215,3 +215,11 @@ aside {
   flex-direction: row;
   flex-wrap: wrap;
 }
+.flex-aside{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: space-around;
+  align-items: center;
+
+}

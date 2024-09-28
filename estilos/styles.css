@@ -244,6 +244,14 @@ form select {
   flex-wrap: wrap;
 }
 
+.flex-aside {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: space-around;
+  align-items: center;
+}
+
 footer.bg-dark {
   background-color: #f1f1f1;
   color: #060404;
